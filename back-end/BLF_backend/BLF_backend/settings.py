@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-
+import datetime
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '=i&l$e3%18*!#wfz_h(^tldv6%bm%#y(70aggocp1g0j(ghtq$'
-
+ALGORITHM = 'HS256'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -38,11 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts',
+    'reports',
     'knox',
 ]
 
 REST_FRAMEWORK = {
-    "DEFAULT_AUTHENTICATION_CLASSES": ("knox.auth.TokenAuthentication",),
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "knox.auth.TokenAuthentication",
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+    ),
 }
 
 MIDDLEWARE = [
