@@ -52,5 +52,6 @@ SUCCESS
 }
 ```
 ```
+FAIL {"message": "doesnt exist email"} , status = 403
 FAIL {"message": "invalid password"} , status = 403
 ```
