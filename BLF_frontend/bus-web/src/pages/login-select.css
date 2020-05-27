@@ -1,0 +1,98 @@
+.report {
+    position: absolute;
+    width: 365px;
+    height: 160px;
+    left: 28%;
+    top: 14%;
+
+    background: #5352EC;
+    box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
+    border-radius: 9px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #F1F2F6;
+    font-size: 18px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+
+    
+} 
+.manager{
+    position: absolute;
+    width: 365px;
+    height: 160px;
+    left: 28%;
+    top: 62%;
+
+    background: #5352EC;
+    box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
+    border-radius: 9px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #F1F2F6;
+    font-size: 18px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    
+}
+.bus {
+    position: absolute;
+    width: 51%;
+    height: 100%;
+}
+.title {
+position: absolute;
+width: 756px;
+left: 1%;
+top: 5%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+color: #FFFFFF;
+font-size: 70px;
+line-height: 80px;
+/* or 25% */
+
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+
+}
+.privacy {
+    position: absolute;
+    left: 57%;
+    top: 95.2%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    display: flex;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #A6A6A6;
+}

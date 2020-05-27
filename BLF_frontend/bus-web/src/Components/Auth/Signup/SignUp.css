@@ -1,0 +1,126 @@
+.signup {
+    position: absolute;
+    top: 20%;
+    left: -73%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #000000;
+    z-index: 1;
+}
+.account {
+    position: absolute;
+    top: 25%;
+    left: -73%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    z-index: 1;
+}
+input[type="text"] {
+    position: absolute;
+    height: 45px;
+    width: 475px;
+    top: 33%;
+    left: -73%;
+    background: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    box-sizing: border-box;
+    z-index: 1;
+    font-size: medium;
+}
+input[type="Email"] {
+    position: absolute;
+    width: 475px;
+    height: 45px;
+    top: 44%;
+    left: -73%;
+    background: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    box-sizing: border-box;
+    z-index: 1;
+    font-size: medium;
+}
+input[type="password"] {
+    position: absolute;
+    width: 475px;
+    height: 45px;
+    top: 55%;
+    left: -73%;
+    background: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    box-sizing: border-box;
+    z-index: 1;
+    font-size: medium;
+}
+input[name="pw"] {
+    position: absolute;
+    width: 475px;
+    height: 45px;
+    top: 66%;
+    left: -73%;
+    background: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    box-sizing: border-box;
+    z-index: 1;
+    font-size: medium;
+}
+.success {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: -68.5%;
+    top: 76%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #F1F2F6;
+    
+
+    background: #5352EC;
+    box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
+    border: 0;
+    outline: 0;
+    border-radius: 9px;
+    z-index: 1;
+}
+.re {
+    position: absolute;
+    left: -46%;
+    top: 84.5%;
+    z-index: 1;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}

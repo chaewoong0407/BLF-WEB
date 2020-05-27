@@ -1,0 +1,36 @@
+.box {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    left: -83%;
+    top: 10%;
+    box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
+    border-radius: 9px;
+    background: #FDFDFE;
+    z-index: 1;
+}
+.bgbus {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 50%;
+    border-radius: 9px;
+}
+.person {
+    position: absolute;
+    width: 60px;
+    height: 67px;
+    left: 6.725%;
+    top: -4%;
+}
+.blue {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 5%;
+    top: -7%;
+
+    background: #5352EC;
+    box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
+    border-radius: 9px;
+}
