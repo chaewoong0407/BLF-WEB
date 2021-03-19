@@ -48,7 +48,7 @@ defusedxml==0.6.0
 distributed==2.9.1
 Django==3.0.5
 django-rest-knox==4.1.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 docutils==0.15.2
 entrypoints==0.3
